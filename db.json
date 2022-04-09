@@ -1,0 +1,9 @@
+{
+    "notes": [
+      { "id": 1, "firstname": "john", "lastname": "doe", "phonenum": 2342345, "role": "teacher", "msg":"practice" },
+      { "id": 2, "firstname": "eion", "lastname": "morgan", "phonenum": 1233, "role": "student", "msg":"practicing" },
+      { "id": 3, "firstname": "san", "lastname": "marin", "phonenum": 34342, "role": "learner", "msg":"learning to practice" },
+      { "id": 3, "firstname": "san", "lastname": "marin", "phonenum": 34342, "role": "learner", "msg":"learning to practice" }
+    ]
+}
+  

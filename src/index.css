@@ -7,7 +7,74 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.formAndView{
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: antiquewhite;
+  box-shadow: 0 10px 13px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  width: 200px;
+}
+
+form div {
+  display: flex;
+  margin: 1rem 0;
+}
+
+input, textarea, select{
+  width: 200px;
+  padding: 0.5rem;
+}
+
+.view {
+  margin: 1rem 1rem 0 1rem;
+  background-color: beige;
+  border-radius: 10px;
+  width: 50%;
+  box-shadow: 0 10px 13px 0;
+
+}
+
+p{
+  margin-left: 2rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.notes {
+  margin: 20px; 
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.note{
+  background-color: rgb(205, 255, 255);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 13px 0;
+}
+
+button{
+  width: 40%;
+  margin-left: 48%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
 }
